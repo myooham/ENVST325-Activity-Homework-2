@@ -84,5 +84,4 @@ floods %>%
 sum(ifelse(floods$gheight.ft > floods$major.ft, 1, 0))
 
 ? hist()
-hist(floods$gheight, xlab="Height of Floods", main = "Histogram of height of floods")
-#Question 5.
+hist(floods$gheight, xlab="Height of Floods (ft)", main = "Histogram of height of floods")
